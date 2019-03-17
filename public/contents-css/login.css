@@ -1,0 +1,119 @@
+
+#header-black{
+	  
+    height: 110px;
+    width: 100%;
+    border-bottom: 1px #AFAFAF solid;
+	background: url(logo/top_bg.png);
+}
+
+#logo-container{
+	padding: 0;
+    background: url(logo/sample-logo.png) no-repeat;
+    height: 120px;
+    width: 145px;
+    margin-top: -1px;
+    margin-left: 164px;
+}
+.main-container{
+    margin-top: 10px;
+    width: 98.6%;
+    min-height: 100%;
+    height: auto !important;
+}
+.login-container{
+    position: relative;
+    width: 500px;
+    height: 300px;
+    left: 50%;
+    transform: translate(-50%,0%);
+    background-color: #f5f5f5;
+    border: grey solid 1px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.form-control{
+	display: initial;
+	width: 92%;
+}
+.login-header{
+	width: 50%;
+	height: 20%;
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#29522a), color-stop(44%,#08472a), color-stop(100%,#2c572d));
+}
+.login-header-text{
+	color: white;
+	font-size: 20px;
+    left: 25%;
+    top: 10%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.click-container{
+	transform: translate(0%,57%);
+}
+.panel-primary{
+	line-height: 77%;
+}
+.btn-login{
+	width: 100%;
+    color: #fff;
+    background-color: #044c2b;
+    border-color: #08472a;
+}
+.btn-login:active{
+	width: 100%;
+    color: #fff;
+    background-color: #044c2b;
+    border-color: #08472a;
+}
+.btn-login:focus{
+	width: 100%;
+    color: #fff;
+    background-color: #044c2b;
+    border-color: #08472a;
+}
+.btn-login:hover{
+	 color: #fff;
+    background-color: #044c2bf2;
+    border-color: #08472a;
+}
+.link{
+	color: #08472a;
+}
+.link-container{
+	text-align: center;
+	 margin-top: 3%;
+}
+.footer{
+    height: 25px;
+    width: 920px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%,-0%);
+}
+
+.footer-text{
+    text-align: center;
+    height: 32px;
+    border-bottom: 1px #AFAFAF solid;
+}
+
+.error_message{
+	position: absolute;
+	left: 50%;
+    transform: translate(-50%,0%);
+	text-align: center;
+	color: red;	
+    font-size: 11px
+}
+.app-title{
+	width: 300px;
+    height: 24px;
+    margin-top: -74px;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 281px;
+    font-weight:bold;
+}

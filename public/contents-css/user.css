@@ -1,0 +1,75 @@
+.dashboard-options{
+	display: block;
+    width: 200px;
+    height: 215px;
+    text-align: center;
+}
+.dashboard-options:hover{
+	text-decoration: none;
+	font-weight: bold;
+	background-color: rgba(221,221,221,0.2);
+}
+#header-black{
+	  
+    height: 110px;
+    width: 100%;
+    border-bottom: 1px #AFAFAF solid;
+	background: url(logo/top_bg.png);
+}
+#logo-container{
+    padding: 0;
+    background: url(logo/sample-logo.png) no-repeat;
+    height: 120px;
+    width: 145px;
+    margin-top: -1px;
+    margin-left: 164px;
+}
+.footer{
+	height: 25px;
+    width: 920px;
+    position: fixed;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 400px;
+}
+
+.footer-text{
+	text-align: center;
+	border-bottom: 1px #AFAFAF solid;
+}
+
+.app-title{
+    width: 300px;
+    height: 24px;
+    margin-top: -74px;
+    font-size: 18px;
+    position: absolute;
+    margin-left: 281px;
+    font-weight:bold;
+}
+ .option-container{
+ 	position: absolute;
+    left: 50%;
+    transform: translate(-50%,0%);
+    top: 150px;
+ }
+ .profile{
+ 	background: url(logo/sample-profile.png) no-repeat;
+ }
+  .banking{
+ 	background: url(logo/sample-banking.png) no-repeat;
+ }
+  .loan{
+ 	background: url(logo/sample-loan.png) no-repeat;
+ }
+ .logout{
+ 	background: url(logo/sample-logout.png) no-repeat;
+ }
+ .option-text{
+ 	color: black;
+ 	transform: translate(0%,195px);
+ }
+ td{
+ 	padding: 35px;
+ }
