@@ -1,6 +1,6 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
-class Admin extends CI_Controller {
+class Manager extends CI_Controller {
 
 	public function index(){
 		$this->check_logged();
@@ -18,7 +18,7 @@ class Admin extends CI_Controller {
 
     private function main_contents(){
         $data['location'] = 'public/contents-css/user.css';
-        $this->load->view('srtdash/index');
+        $this->load->view('srtdash/index2');
     }
 
     private function check_logged(){
