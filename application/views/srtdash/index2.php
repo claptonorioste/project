@@ -49,7 +49,11 @@
                             <li class="active">
                                 <a href="javascript:void(0)" aria-expanded="true"><i class="ti-dashboard"></i><span>dashboard</span></a>
                                 <ul class="collapse">
+<<<<<<< HEAD
                                     <li><a href="index.html">SEO dashboard</a></li>
+=======
+                                    <li><a href="<?= base_url('admin'); ?>">SEO dashboard</a></li>
+>>>>>>> 5c8c9c8a3bf6416514803cf70fdaac1082585d9b
                                     <li class="active"><a href="index2.html">Ecommerce dashboard</a></li>
                                     <li><a href="index3.html">ICO dashboard</a></li>
                                 </ul>

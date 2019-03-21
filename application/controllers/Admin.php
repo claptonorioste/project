@@ -17,6 +17,10 @@ class Admin extends CI_Controller {
 
 
     private function main_contents(){
+<<<<<<< HEAD
+=======
+        $data['location'] = 'public/contents-css/user.css';
+>>>>>>> 5c8c9c8a3bf6416514803cf70fdaac1082585d9b
         $this->load->view('srtdash/index');
     }
 
