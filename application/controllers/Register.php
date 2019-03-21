@@ -4,7 +4,7 @@ class Register extends CI_Controller {
 	 public function index(){
 	        $data['location'] = "public/contents-css/profile.css";
             $this->load->view('templates/header',$data);
-            $this->load->view('pages/registers');
+            $this->load->view('pages/register');
             $this->load->view('templates/footer');
         }
 

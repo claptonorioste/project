@@ -10,7 +10,8 @@
 	background-color: rgba(221,221,221,0.2);
 }
 #header-black{
-	  
+	position: fixed;
+    z-index: 99;
     height: 110px;
     width: 100%;
     border-bottom: 1px #AFAFAF solid;

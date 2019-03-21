@@ -22,11 +22,6 @@ class Stats extends CI_Controller {
                 if($this->login->try_login($user,$pass)->num_rows()>0){
                     $result = $this->login->try_login($user,$pass)->result();
                     $this->setSession($result);
-                    // if($this->session->userdata('user_type')=='member'){
-                    //     redirect('menu');
-                    // }else if($this->session->userdata('user_type')=='admin'){
-                    //     redirect('admin');
-                    // }
                 }
                 else{
                      $this->setFlashData(array("error_msg" => "Invalid Username/Password!"));
@@ -50,7 +45,7 @@ class Stats extends CI_Controller {
 
         public function not_log_in($css_loc){
 
-            $data = array("location" => $css_loc);
+            $data = array("location" => $css_loc,"title" => "Login");
 
             $this->load->view('templates/header',$data);
             $this->load->view('pages/login');
@@ -74,9 +69,11 @@ class Stats extends CI_Controller {
                     redirect('menu');
                 }else if($this->session->userdata('user_type')=='admin'){
                     redirect('admin');
+                }else if($this->session->userdata('user_type')=='cashier'){
+                    redirect('cashier');
                 }
-                else if($this->session->userdata('user_type')=='moderator'){
-                    redirect('menu');
+                else if($this->session->userdata('user_type')=='manager'){
+                    redirect('manager');
                 }
             }
             else{

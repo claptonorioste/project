@@ -25,12 +25,6 @@
 			</td>
 		</tr>
 		<tr>
-			<td colspan="2">
-				<i style="color: red;"><?php echo $error; ?></i>
-			</td>
-			
-		</tr>
-		<tr>
 			<td>
 				&nbsp;
 			</td>

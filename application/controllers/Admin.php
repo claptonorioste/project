@@ -17,8 +17,7 @@ class Admin extends CI_Controller {
 
 
     private function main_contents(){
-        $data['location'] = 'public/contents-css/user.css';
-        $this->load->view('templates/sbadmin');
+        $this->load->view('srtdash/index');
     }
 
     private function check_logged(){
@@ -26,6 +25,9 @@ class Admin extends CI_Controller {
                 redirect();
         }
         else{
+            if($this->session->has_userdata('user_type')=='cashier'){
+                redirect('cashier');
+            }
             return true;
         }
     }

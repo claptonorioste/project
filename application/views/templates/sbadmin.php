@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-
+  <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('public/contents-css/logo/sample-logo.png'); ?>">
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -29,11 +29,11 @@
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
-      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
-        <div class="sidebar-brand-icon rotate-n-15">
-          <i class="fas fa-laugh-wink"></i>
+      <a class="sidebar-brand d-flex align-items-center justify-content-center" href="<?= base_url(); ?>">
+        <div class="sidebar-brand-icon">
+          <i class="fas fa-user"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">Welcome <?= ucfirst($this->session->userdata('username')); ?></div>
+        <div class="sidebar-brand-text mx-3">Welcome Admin</div>
       </a>
 
       <!-- Divider -->
@@ -41,7 +41,7 @@
 
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
-        <a class="nav-link" href="index.html">
+        <a class="nav-link" href="<?= base_url('admin'); ?>">
           <i class="fas fa-fw fa-tachometer-alt"></i>
           <span>Dashboard</span></a>
       </li>
@@ -304,7 +304,7 @@
 
                 <!--PROFILE DROPDOWN!-->
 
-                <!-- <img class="img-profile rounded-circle" src="https://source.unsplash.com/QAB-WJcbgJk/60x60"> -->
+                <img class="img-profile rounded-circle" src="<?= base_url('public/contents-css/logo/admin.png'); ?>">
               </a>
               <!-- Dropdown - User Information -->
               <div class="dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="userDropdown">
